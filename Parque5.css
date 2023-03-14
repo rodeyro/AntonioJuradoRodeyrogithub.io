@@ -1,0 +1,113 @@
+body{
+padding:0;
+margin:0;
+text-decoration:none;
+list-style:none;
+box-sizing:border-box;
+background-image: url("https://p4.wallpaperbetter.com/wallpaper/366/426/408/military-camouflage-patterns-wallpaper-preview.jpg");
+  box-sizing: border-box;
+  font-family: "Gill Sans", sans-serif;
+  min-heigth: 330px;
+}
+
+nav{
+  background-color:;
+height:80px;
+width:100%;
+box-shadow: 5px 10px 8px;
+}
+
+label{
+color:White;
+font-size:40px;
+line-heigth:80px;
+padding:20px 150px;
+display:inline-block;
+}
+
+nav ul{
+float:right;
+margin-right:20px;
+}
+
+nav ul li{
+display:inline-block;
+line-height:80px;
+margin:0px 5px;
+}
+
+nav ul li a{
+background-color: green;
+  border: none;
+  color: black;
+  padding: 16px 15px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+ a:hover{
+background-color: red;
+  color: white;
+}
+
+article{
+  color:White;
+  margin:5%;
+}
+
+h2{
+    color:White;
+    text-align:center;
+}
+
+h3{
+  text-align:center;
+}
+
+.container2 {  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 0.2fr 0.2fr;
+  gap: 50px 170px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . .";
+  margin:10%;
+}
+
+p{
+  color:orange;
+  font-family:sans;
+  text-align:center;
+}
+
+img{
+  height:130px;
+  width:120px;
+  display:block;
+  margin:auto auto;
+}
+
+hr{
+  margin:5%;
+}
+
+.button{
+	color:yellow;
+	border: 2px solid white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:5%;
+	font-size:30px;
+	padding: 15px 32px;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+	float:center;
+	margin: auto;
+	width: 60%;
+	
+}

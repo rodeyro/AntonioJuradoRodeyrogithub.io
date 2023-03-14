@@ -1,0 +1,52 @@
+*{
+	--border: 1px solid orange;
+}
+
+body {
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/366/426/408/military-camouflage-patterns-wallpaper-preview.jpg");
+  box-sizing: border-box;
+  font-family: "Gill Sans", sans-serif;
+ 
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 50px 50px;
+  max-height: 75%;
+  justify-content:center;
+  justify-items:center;
+  margin: 5%;
+  height:620px;
+  
+}
+
+.box:hover {
+  box-sizing: border-box;
+  scale: 1.2;
+  border: 5px solid white;
+  transition: 1s;
+}
+
+a{
+	width:200px;
+}
+
+audio{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
