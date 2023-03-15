@@ -50,3 +50,13 @@ audio{
   margin-left: auto;
   margin-right: auto;
 }
+
+a.button:visited{
+	border: 1px solid violet;
+	color:white;
+}
+
+a.button:link{
+	border: 1px solid violet;
+	color:white;
+}
