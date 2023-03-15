@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
 body{
 padding:0;
 margin:0;
@@ -6,49 +8,53 @@ list-style:none;
 box-sizing:border-box;
 background-image: url("https://p4.wallpaperbetter.com/wallpaper/366/426/408/military-camouflage-patterns-wallpaper-preview.jpg");
   box-sizing: border-box;
-  font-family: "Gill Sans", sans-serif;
+  
   min-heigth: 330px;
 }
 
-nav{
-  background-color:;
-height:80px;
-width:100%;
-box-shadow: 5px 10px 8px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 80px;
+  width: 100%;
+  box-shadow: 5px 10px 8px;
 }
 
-label{
-color:White;
-font-size:40px;
-line-heigth:80px;
-padding:20px 150px;
-display:inline-block;
+label {
+  color: #fff;
+  font-size: 40px;
+  line-height: 80px;
+  padding: 0px 150px;
 }
 
-nav ul{
-float:right;
-margin-right:20px;
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 20px;
 }
 
-nav ul li{
-display:inline-block;
-line-height:80px;
-margin:0px 5px;
+nav ul li {
+  list-style: none;
+  margin: 0 5px;
 }
 
-nav ul li a{
-background-color: green;
+nav ul li a {
+  background-color: green;
   border: none;
-  color: black;
+  color: #000;
   padding: 16px 15px;
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
   transition: 0.3s;
+  position:relative;
 }
- a:hover{
-background-color: red;
-  color: white;
+
+nav ul li a:hover {
+  background-color: red;
+  color: #fff;
 }
 
 article{
@@ -110,4 +116,8 @@ hr{
 	margin: auto;
 	width: 60%;
 	
+}
+
+.button:Hover{
+	background-color:red;
 }
