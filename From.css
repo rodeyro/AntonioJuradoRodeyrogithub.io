@@ -1,0 +1,13 @@
+body {
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/366/426/408/military-camouflage-patterns-wallpaper-preview.jpg");
+  box-sizing: border-box;
+  font-family: "Gill Sans", sans-serif;
+  margin-left: 35%;
+  margin-top: 10%;
+  color:white;
+}
+
+a{
+	border: 3px solid violet;
+	color: white;
+}
