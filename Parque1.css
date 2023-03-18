@@ -115,21 +115,15 @@ hr{
 }
 
 .button{
-	color:yellow;
-	border: 2px solid white;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom:5%;
-	font-size:30px;
-	padding: 15px 32px;
-	text-align: center;
-	display: block;
-	cursor: pointer;
-	float:center;
-	margin: auto;
-	width: 60%;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .button:Hover{
-	background-color:red;
+	background-color: #3e8e41;
 }
