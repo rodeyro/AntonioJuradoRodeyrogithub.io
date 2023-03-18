@@ -114,18 +114,20 @@ hr{
   margin:5%;
 }
 
-.button{
+.btn-container {
+  text-align: center;
+}
+
+.btn-back {
   display: inline-block;
   padding: 10px 20px;
   background-color: #4CAF50;
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  margin-left:auto;
-  margin-right:auto;
+  transition: background-color 0.3s ease;
 }
 
-.button:Hover{
-	background-color: #3e8e41;
-	transition: 0.75s;
+.btn-back:hover {
+  background-color: #3e8e41;
 }
