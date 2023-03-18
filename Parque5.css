@@ -101,23 +101,21 @@ hr{
   margin:5%;
 }
 
-.button{
-	color:yellow;
-	border: 2px solid white;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom:5%;
-	font-size:30px;
-	padding: 15px 32px;
-	text-align: center;
-	display: block;
-	cursor: pointer;
-	float:center;
-	margin: auto;
-	width: 60%;
-	
+.btn-container {
+  text-align: center;
 }
 
-.button:Hover{
-	background-color:red;
+.btn-back {
+ display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 25%;
+  font-size:30px;
 }
+
+.btn-back:hover {
+  background-color: #3e8e41;
+  transition: 2s ease;
+} 
